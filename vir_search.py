@@ -21,9 +21,9 @@ vt_api_key = ''
 
 parser = argparse.ArgumentParser(description='Program for checking vulnerabilities places in OS Windows')
 parser.add_argument('--startup-registry', action='store_true', help='check registry autorun')
-parser.add_argument('--startup-services', action='store_true', help='check services autorun')
-parser.add_argument('--file-scan', type=str, metavar='<path_to_file>', help='send file to VirusTotal to get signature analyze result')
+# parser.add_argument('--startup-services', action='store_true', help='check services autorun')
 parser.add_argument('--startup-folder', action='store_true', help='check Windows startup folder')
+parser.add_argument('--file-scan', type=str, metavar='<path_to_file>', help='send file to VirusTotal to get signature analyze result')
 parser.add_argument('-d', '--debug', action='store_true', help='enable debug mode')
 parser.add_argument(
 	'--vt-api-key-file',
@@ -151,7 +151,7 @@ def main():
 
 	if opts.debug:
 		print('[*] Your API key: ', vt_api_key)
-		
+
 	if opts.startup_registry:
 		startup_registry()
 	if opts.startup_folder:
