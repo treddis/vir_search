@@ -1,7 +1,7 @@
 Windows virus search engine
 ==========
 
-[![Github All Releases](https://img.shields.io/github/license/treddis/vir_search)] [![Github All Releases](https://img.shields.io/github/downloads/treddis/vir_search/total.svg)]() 
+![Github All Releases](https://img.shields.io/github/license/treddis/vir_search) [![Github All Releases](https://img.shields.io/github/downloads/treddis/vir_search/total.svg)]() 
 
 CLI utility to check vulnerable places in OS Windows with ability to upload malicious file to VirusTotal for signature scanning
 
