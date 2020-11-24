@@ -1,7 +1,7 @@
 Windows virus search engine
 ==========
 
-[![License](https://img.shields.io/badge/licence-Apache%202.0-blue.svg)] [![Github All Releases](https://img.shields.io/github/downloads/treddis/vir_search/total.svg)]() 
+![License](https://img.shields.io/badge/licence-Apache%202.0-blue.svg) [![Github All Releases](https://img.shields.io/github/downloads/treddis/vir_search/total.svg)]() 
 
 CLI utility to check vulnerable places in OS Windows with ability to upload malicious file to VirusTotal for signature scanning
 
@@ -18,9 +18,5 @@ CLI utility to check vulnerable places in OS Windows with ability to upload mali
 	                        send file to VirusTotal to get signature analyze result
 	  --startup-folder      check Windows startup folder
 	  -d, --debug           enable debug mode
-	  --check-startup-registry
-	                        check all executables that startup keys refer from registry
-	  --check-startup-folder
-	                        check all executables in startup folders
 	  --vt-api-key VT_API_KEY
 	                        path to file with VirusTotal API key, default is C\Users\%username%\vt_api_key	
